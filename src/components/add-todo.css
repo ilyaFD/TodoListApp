@@ -1,0 +1,9 @@
+.add-todo {
+    display: flex;
+}
+.add-todo > * {
+    margin-right: 1rem;
+}
+.add-todo > *:last-child {
+    margin-right: 0;
+}

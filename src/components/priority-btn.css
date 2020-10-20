@@ -1,0 +1,11 @@
+.btn_priority {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: rgb(67, 38, 110) !important;
+    opacity: 0.5;
+    margin-right: 0.5rem;
+    transition: opacity .3s;
+}
+.btn_priority:hover {
+    opacity: 1;
+}

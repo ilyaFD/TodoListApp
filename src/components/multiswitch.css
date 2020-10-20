@@ -1,0 +1,19 @@
+.multiswitch {
+    display: flex;
+    flex-wrap: wrap;
+}
+.multiswitch > * {
+    margin-right: 1rem;
+}
+.multiswitch > *:last-child {
+    margin-right: 0;
+}
+.multiswitch__item {
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-transform: lowercase;
+}

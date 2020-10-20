@@ -1,0 +1,11 @@
+.filter__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter__list > *{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.filter__list > *:last-child {
+    margin-right: 0;
+}

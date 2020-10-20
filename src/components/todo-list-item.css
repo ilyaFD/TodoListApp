@@ -1,0 +1,18 @@
+.todo-list-item__content {
+    border-radius: 15px;
+    box-shadow: 0 1px 4px 1px rgba(76, 33, 98, 0.1);
+    background-color: #fcfbff;
+    padding: 1rem;
+    text-transform: capitalize;
+    transition: background-color .3s;
+}
+.todo-list-item__content_active {
+    background-color: #f5eeff;
+}
+.todo-list-item__content_active .btn_priority{
+    opacity: 1;
+}
+.todo-list-item__footer {
+    display: flex;
+    margin-top: 1rem;
+}

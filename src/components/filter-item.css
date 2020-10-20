@@ -1,0 +1,13 @@
+.filter__item {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: rgba(67,38,110,.5);
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.filter__item_active {
+    background-color: #43266e;
+}
+.filter__item:hover {
+    background-color: #43266e;
+}

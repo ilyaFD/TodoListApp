@@ -1,0 +1,13 @@
+.search {
+    position: relative;
+}
+.search__icon {
+    font-size: 15px;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search .field {
+    padding-left: 25px;
+}

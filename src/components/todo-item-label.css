@@ -1,0 +1,8 @@
+.field.todo-list-item__label {
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .3s;
+}
+.field.todo-list-item__label:focus {
+    border-bottom: 1px solid #b291d9;
+}

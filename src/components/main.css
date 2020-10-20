@@ -1,0 +1,7 @@
+.main {
+    width: 75%;
+}
+.main > * {
+    margin-bottom: 2rem;
+}
+  

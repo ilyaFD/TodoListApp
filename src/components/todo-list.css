@@ -1,0 +1,9 @@
+.todo-list > * {
+    margin-bottom: 2rem;
+}
+.todo-list > *:last-child {
+    margin-bottom: 0;
+}
+.todo-list .multiswitch {
+    margin-right: auto;
+}
